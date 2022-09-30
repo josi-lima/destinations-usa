@@ -1,5 +1,7 @@
 /* General Setttings */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
 body {
   background-image: url('img-01.jpg');
   background-size: cover;
@@ -8,19 +10,27 @@ body {
   height: 100vh;
   box-sizing: border-box;
   background-color: #ffc600;
-  font-family: 'helvetica neue';
-  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Intro */
+
+.intro {
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.9vmax;
+  color: rgb(85, 8, 8);
 }
 
 /* Form */
 
 input {
   width: 100%;
-  padding: 1.5vmax;
+  padding: 1vmax;
 }
 
 .search-form {
-  max-width: 400px;
+  max-width: 24vmax;
   margin: 50px auto;
 }
 
@@ -28,7 +38,7 @@ input {
   margin: 0;
   position: relative;
   z-index: 2;
-  left: -10%;
+  left: -7%;
   top: 10px;
   outline: 0;
   border: 10px solid #f7f7f7;
