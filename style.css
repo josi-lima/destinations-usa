@@ -1,1 +1,58 @@
 /* General Setttings */
+
+body {
+  box-sizing: border-box;
+  background-color: #ffc600;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+}
+
+/* Form */
+
+input {
+  width: 100%;
+  padding: 1.5vmax;
+}
+
+.search-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.search {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  left: -10%;
+  top: 10px;
+  outline: 0;
+  border: 10px solid #f7f7f7;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow:  0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.suggestions {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.suggestions li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  text-transform: capitalize;
+  background-color: #fff;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  transform: background 0.2s;
+}
+
+.suggestions li:nth-child(even) {
+  transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+  background: linear-gradient(to bottom, #fff 0%, #fcfcd0 100% );
+}
