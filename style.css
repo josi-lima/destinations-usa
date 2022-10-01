@@ -2,21 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
+* {
+  margin: 0;
+}
+
 body {
   background-image: url('img-01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  /* box-sizing: border-box; */
   background-color: #ffc600;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Intro */
 
-.intro {
-  margin: 3vmax 4vmax;
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 5rem;
+  background: linear-gradient(to bottom, #fff 0%, #f1dcb5 100%);
+}
+
+h1 {
+  margin: 1.6vmax 2vmax;
   text-align: center;
   white-space: wrap;
   font-size: 2.1vmax;
@@ -36,7 +48,6 @@ input {
 }
 
 .search {
-  margin: 0;
   position: relative;
   z-index: 2;
   left: -7%;
@@ -50,7 +61,6 @@ input {
 }
 
 .suggestions {
-  margin: 0;
   padding: 0;
   position: relative;
 }
@@ -58,7 +68,6 @@ input {
 .suggestions li {
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding: 20px;
   list-style: none;
   text-transform: capitalize;
@@ -71,7 +80,7 @@ input {
 
 .suggestions li:nth-child(even) {
   transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-  background: linear-gradient(to bottom, #fff 0%, #f1dcb5 100% );
+  background: linear-gradient(to bottom, #fff 0%, #f1dcb5 100%);
 }
 
 span.population {
