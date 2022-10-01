@@ -1,6 +1,6 @@
 /* General Setttings */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Source+Sans+Pro:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@ h1 {
   margin: 1.6vmax 2vmax;
   text-align: center;
   white-space: wrap;
-  font-size: 2.1vmax;
+  font: 2.15vmax 'Acme', sans-serif;
   color: #8a0808;
 }
 
