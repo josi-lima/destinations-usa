@@ -50,20 +50,20 @@ input {
 }
 
 .search-form {
-  max-width: 24vmax;
+  max-width: 30vmax;
   margin: 50px auto;
 }
 
 .search {
   position: relative;
   z-index: 2;
-  left: -7%;
+  left: -6%;
   top: 10px;
   outline: 0;
   border: 10px solid #f7f7f7;
   border-radius: 5px;
   text-align: center;
-  font-size: 2.5vmax;
+  font-size: 2.7vmax;
   box-shadow:  0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
 
@@ -78,7 +78,7 @@ input {
   padding: 20px;
   list-style: none;
   text-transform: capitalize;
-  font: 1.5vmax 'helvetica neue';
+  font: 1.6vmax 'helvetica neue';
   background-color: #fff;
   border-bottom: 1px solid #d8d8d8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
