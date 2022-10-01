@@ -16,6 +16,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Variables */
+
+:root {
+  --bg-gradient: linear-gradient(to bottom, #fff 0%, #f1dcb5 100%);
+}
+
 /* Intro */
 
 .nav-bar {
@@ -24,13 +30,14 @@ body {
   align-items: center;
   width: 100%;
   min-height: 5rem;
-  background: linear-gradient(to bottom, #fff 0%, #f1dcb5 100%);
+  background: var(--bg-gradient);
 }
 
 h1 {
   margin: 1.6vmax 2vmax;
   text-align: center;
   white-space: wrap;
+  user-select: none;
   font: 2.15vmax 'Acme', sans-serif;
   color: #8a0808;
 }
@@ -79,12 +86,16 @@ input {
 }
 
 .suggestions li:nth-child(even) {
-  transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-  background: linear-gradient(to bottom, #fff 0%, #f1dcb5 100%);
+  transform: perspective(100px) rotateX(1.7deg) translateY(2px) scale(1.001);
+  background: var(--bg-gradient);
+}
+
+.suggestions li:nth-child(odd) {
+  transform: perspective(100px) rotateX(-1.7deg) translateY(3px) scale(1.001);
 }
 
 span.population {
-  font-size: 15px;
+  font-size: 1.1vmax;
 }
 
 .hl {
