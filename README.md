@@ -1,4 +1,4 @@
-# Destinations - The USA 🚗
+# Destinations - The USA 🚘
 
 ⚡ <strong>[ JavaScript / CSS / HTML ]</strong> --- https://josi-lima.github.io/destinations-usa/
 
