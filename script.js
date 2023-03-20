@@ -9,7 +9,7 @@ const cities = [];
 // Fetch the endpoint - gives us a promise
 
 fetch(endpoint)
-  .then(blob => blob.json())  // then() converts the parameter into json
+  .then(reply => reply.json())  // then() converts the parameter into json
   .then(data => cities.push(...data)); // then() push the data into the cities array using ES6 spread
 
 // Function to take an input and give an array with the subset of objects/places 
