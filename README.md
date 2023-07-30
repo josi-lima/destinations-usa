@@ -13,3 +13,7 @@ On this dynamic and informative page, you will find an interactive search form d
 <strong>[POR]</strong>
 <br>
 Nesta página dinâmica e informativa, você encontrará um formulário de pesquisa interativo exibindo os nomes de milhares de estados e cidades nos Estados Unidos. À medida que o usuário digita uma letra, ela corresponde aos nomes dos destinos (de um banco de dados acessado por meio de um API request). Este é o projeto #6 de uma série baseada no desafio de programação _[#JavaScript30](https://javascript30.com/)_.
+
+<br>
+
+![234246](https://github.com/josi-lima/destinations-usa/assets/108018406/d2aa1e92-8357-4f88-b652-1026bb88d96f)
